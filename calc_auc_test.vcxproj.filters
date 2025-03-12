@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="test_files">
+      <UniqueIdentifier>{f29408f3-3c70-4144-8996-572e010d27eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="calc_auc.cpp" />
+    <ClCompile Include="test_calc_auc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="calc_auc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test_files\auc_0.000.txt">
+      <Filter>test_files</Filter>
+    </Text>
+    <Text Include="test_files\auc_0.583.txt">
+      <Filter>test_files</Filter>
+    </Text>
+    <Text Include="test_files\auc_1.000.txt">
+      <Filter>test_files</Filter>
+    </Text>
+    <Text Include="test_files\auc_gt_all_ones.txt">
+      <Filter>test_files</Filter>
+    </Text>
+    <Text Include="test_files\auc_gt_all_zeros.txt">
+      <Filter>test_files</Filter>
+    </Text>
+    <Text Include="test_files\auc_0.200.txt">
+      <Filter>test_files</Filter>
+    </Text>
+    <Text Include="test_files\auc_invalid_gt.txt">
+      <Filter>test_files</Filter>
+    </Text>
+    <Text Include="test_files\auc_0.805.txt">
+      <Filter>test_files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
