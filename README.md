@@ -7,9 +7,9 @@ real issues. I asked Grok to generate some documentation and here it is.
 
 Source Files:
 
-  calc_auc.cpp : main cpp file implementing AUC calculation
-  calc_auc.h : header file for calc_auc.cpp
-  test_calc_auc.cpp : test program for calc_auc.cpp and calc_auc.h
+  * calc_auc.cpp : main cpp file implementing AUC calculation
+  * calc_auc.h : header file for calc_auc.cpp
+  * test_calc_auc.cpp : test program for calc_auc.cpp and calc_auc.h
 
 Test data files:
   
