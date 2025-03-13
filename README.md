@@ -13,10 +13,10 @@ Source Files:
 
 Test data files:
   
-  test_files/*.txt
+  * test_files/*.txt
 
 Visual Studio solution and project files:
 
-  calc_auc.sln
-  calc_auc_test.vcxproj
-  calc_auc_test.vcxproj.filters
+  * calc_auc.sln
+  * calc_auc_test.vcxproj
+  * calc_auc_test.vcxproj.filters
